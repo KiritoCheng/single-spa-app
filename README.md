@@ -24,7 +24,7 @@ use single-spa for bringing together multiple JavaScript microfrontends in a fro
 
 - Install [Node.js] which includes [Node Package Manager][npm]
 
-### 项目配置
+### Project configuration
 
 Create workspace:
 
