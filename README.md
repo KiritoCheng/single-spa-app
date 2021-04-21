@@ -4,6 +4,20 @@
   <img src="https://user-images.githubusercontent.com/19926113/115529590-9ced8180-a2c5-11eb-9fdd-10ba170eaa46.png"/>
 </p>
 
+## Why use Microfrontends?
+
+- Use multiple frameworks on the same page without page refreshing (React, AngularJS, Angular, Ember, or whatever you're using)
+- Deploy your microfrontends independently
+- Write code using a new framework, without rewriting your existing app
+- Lazy load code for improved initial load time
+
+## 我们为什么要使用微前端？
+
+- 在同一页面上使用多个前端框架 而不用刷新页面 (React, AngularJS, Angular, Ember, 你正在使用的框架)
+- 独立部署每一个单页面应用
+- 新功能使用新框架，旧的单页应用不用重写可以共存
+- 改善初始加载时间，懒惰加载代码
+
 <hr>
 
 ## JavaScript Microfrontends
