@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/19926113/115529590-9ced8180-a2c5-11eb-9fdd-10ba170eaa46.png)
+
 <hr>
 
 ## JavaScript Microfrontends
