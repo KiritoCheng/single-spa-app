@@ -15,6 +15,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "single-spa": "^5.9.2",
+    "single-spa-angular": "^4.9.2",
     "single-spa-react": "^4.1.1",
     "single-spa-vue": "^2.2.0",
     "vue": "^2.6.12"
