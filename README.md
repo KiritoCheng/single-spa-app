@@ -53,6 +53,7 @@ Open running code at localhost:
 - Render angular: http://localhost:8080/angular/
 
 <hr>
+
 ## 微前端框架架构
 
 利用 single-spa 技术实现微前端，将多个单页面应用聚合为一个整体应用的 JavaScript 微前端框架。
