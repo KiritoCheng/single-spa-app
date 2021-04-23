@@ -1,7 +1,7 @@
 <h1 align="center">JavaScript Microfrontends(前端微服务构建)</h1>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/19926113/115529590-9ced8180-a2c5-11eb-9fdd-10ba170eaa46.png"/>
+  <img src="https://user-images.githubusercontent.com/19926113/115855542-effa3c80-a45d-11eb-9f4d-56f0af7d27d4.png"/>
 </p>
 
 ## Why use Microfrontends?
