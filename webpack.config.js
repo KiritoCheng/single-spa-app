@@ -16,6 +16,11 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.tsx?$/,
+        use: "ts-loader",
+        exclude: /node_modules/,
+      },
+      {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
       },
@@ -37,6 +42,7 @@ module.exports = {
     alias: {
       vue: "vue/dist/vue.js",
     },
+    extensions: [".tsx", ".ts", ".js"],
     modules: [path.resolve(__dirname, "node_modules")],
   },
   plugins: [new CleanWebpackPlugin(), new VueLoaderPlugin()],

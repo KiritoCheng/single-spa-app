@@ -3,13 +3,34 @@ import { registerApplication, start } from "single-spa";
 registerApplication(
   "vue",
   () => import("./src/vue/vue.app.js"),
-  () => (location.pathname === "/react" ? false : true)
+  () => {
+    if (location.pathname === "/react" || location.pathname === "/angular") {
+      return false;
+    }
+    return true;
+  }
 );
 
 registerApplication(
   "react",
   () => import("./src/react/main.app.js"),
-  () => (location.pathname === "/vue" ? false : true)
+  () => {
+    if (location.pathname === "/vue" || location.pathname === "/angular") {
+      return false;
+    }
+    return true;
+  }
+);
+
+registerApplication(
+  "angular",
+  () => import("./src/angular/index.ts"),
+  () => {
+    if (location.pathname === "/react" || location.pathname === "/vue") {
+      return false;
+    }
+    return true;
+  }
 );
 
 start();
